@@ -1,11 +1,14 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<form class="p-6 col-12" align="center" action="./api/tasks" method = "post">
-<h2> Tarefa </h2>
+<div class="container col-sm-10">
+<form class="p-6" align="center" action="./api/tasks" method = "POST">
+<h2> Adicionar tarefa </h2>
     <div class="form-group">
         <input
             class="form-control p-4"
             name="tarefa"
+            placeholder="Insira a tarefa"
         />
     </div>
     <button type="submit" class="btn btn-primary">Enviar</button>
 </form>
+</div>

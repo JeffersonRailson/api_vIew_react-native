@@ -23,6 +23,7 @@ class App {
       express: this.express,
       watch: true
     })
+    this.express.use(express.urlencoded({ extended: false }))
     this.express.set('view engine', 'njk')
   }
   routes () {
